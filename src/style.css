@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+button{
+  margin-block-end: 5rem;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #3F3F3F;
+  border:  none;
+  background-color: #E0E0E0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+
+.app{
+  padding-block-start: 1rem;
+}
+
+.container{
+  inline-size: 80%;
+  margin: auto;
+}
+
+.default:hover{
+  background-color: #AEAEAE;
+}
+
+.primary{
+  background-color: #2962FF;
+  color: #FFFFFF;
+}
+
+.primary:hover{
+  background-color: #0039CB;
+}
+
+.secondary{
+  background-color: #455A64;
+  color: #FFFFFF;
+}
+
+.secondary:hover{
+  background-color: #1C313A;
+}
+
+.danger{
+  background-color: #D32F2F;
+  color: #FFFFFF;
+}
+
+.danger:hover{
+  background-color: #9A0007;
+}
+
+.outline{
+  border: 1px solid red;
+}
+
+.button{
+  position: relative;
+}
+
+.icon-right{
+  position: absolute;
+  top: 8px;
+  left: 85px;
+}
+
+@media (min-width: 728px) {
+
+  .button-bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
